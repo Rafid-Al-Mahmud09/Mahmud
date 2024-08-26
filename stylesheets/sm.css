@@ -1,8 +1,8 @@
-/* header>nav{
+header>nav{
     flex-direction: row;
     justify-content: space-around;
 }
-header>nav>div{
+/* header>nav>div{
     width: auto;
     padding: 1em 5em;
     border-radius: 5px;
@@ -16,5 +16,5 @@ main>section#softwares>div>div:nth-child(1){
 }
 main>section#softwares>div>div:nth-child(2){
     width: 20%;
-}
-footer>section#services>ul>li{width: auto;} */
+} */
+footer>section#services>ul>li{width: auto;}

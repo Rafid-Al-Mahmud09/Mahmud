@@ -4,19 +4,19 @@
 /* __________^__________ */
 :root {
     /* header, btn */
-    /* --ui1: hsl(221, 100%, 56%);
+    --ui1: hsl(221, 100%, 56%);
     --ui2: black;
     --ui3: white;
     --ui4: #2CA4AB;
     --btn-act: dodgerblue;
-    --navDivBoxShadow: rgb(38, 57, 77) 0px 20px 30px -10px; */
+    --navDivBoxShadow: rgb(38, 57, 77) 0px 20px 30px -10px;
     /* --bg: #00FEFF; */
-    /* --bg: gold;
+    --bg: gold;
     --a: #7289da;
     --b: #424549;
     --c: #36393e;
     --d: #282b30;
-    --e: #1e2124; */
+    --e: #1e2124;
 }
 /* __________$__________ */
 
@@ -44,10 +44,12 @@ footer ul{    word-break: break-all; /*tghdhyvc also niche ar upore*/}
 # Initialize default box sizing settings and fonts of all element of whole webpage.
 */
 /* __________^__________ */
-* {
+*, *::before, *::after {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    /* font-family: inherit; */
+    /* overflow-wrap: break-word; */
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     /* font-family: Rafoitiro; */
     scroll-behavior: smooth;
@@ -56,6 +58,7 @@ footer ul{    word-break: break-all; /*tghdhyvc also niche ar upore*/}
     -moz-user-select: none;
     -webkit-user-select: none;
     user-select: none;
+    /* background-color: blueviolet; */
 }
 /* __________$__________ */
 
@@ -136,15 +139,16 @@ header {
     nav {
         width: 100%;
         display: flex;
-        /* box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px; */
+        box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
     }
 
     nav>div {
-        /* box-shadow: var(--navDivBoxShadow);
+        /* box-shadow: var(--navDivBoxShadow); */
         font-family: CerebriSans-Regular, -apple-system, system-ui, Roboto, sans-serif;
-        -webkit-font-smoothing: antialiased; */
+        -webkit-font-smoothing: antialiased;
         /* margin: 2em; */
-        /* height: 10%;
+        height: 10%;
+        width: 200px;
         background: var(--ui3);
         transition: all 300ms;
         color: #555;
@@ -156,7 +160,7 @@ header {
         overflow: hidden;
         -webkit-user-select: none;
         user-select: none;
-        cursor: pointer; */
+        cursor: pointer;
     }
 
 /* __________$__________ */
@@ -192,14 +196,14 @@ header {
 # MAIN: SEARCH
 */
 /* __________^__________ */
-    /* #search{
+    #search{
         margin: 10px;
     }
     #search>input{
         padding: 10px;
         width: 100%;
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    } */
+    }
 /* __________$__________ */
 
 
@@ -337,7 +341,7 @@ footer{
 # FOOTER: COPYRIGHT
 */
 /* __________^__________ */
-    /* footer>section#copyright{
+    footer>section#copyright{
         text-align: center;
-    } */
+    }
 /* __________$__________ */

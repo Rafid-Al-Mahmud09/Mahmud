@@ -1,0 +1,99 @@
+button:not([type=submit]) {
+    text-align: start;
+}
+button:focus, button:active, .button:focus, .button:active {
+    /* color: #000;
+    background-color: #f9dc4a;
+    border-color: #000; */
+}
+button:hover, .button:hover {
+    /* background-color: #024488;
+    border-color: #024488; */
+}
+@media screen and (min-width: 70em) {
+    .nav-link {
+        /* display: inline-block; */
+    }
+}
+.nav-link {
+    /* color: #111;
+    display: block;
+    padding: 0.625rem 0;
+    position: relative; */
+    text-decoration: none;
+}
+:focus {
+    /* outline: 2px solid transparent;
+    outline-offset: -2px; */
+}
+button, .button {
+    /* background-color: #005797;
+    border: solid 2px #005797;
+    border-radius: 1.5rem;
+    color: #fff;
+    display: inline-block;
+    font-size: 0.875rem;
+    font-weight: 600;
+    line-height: 1.5;
+    outline: 2px solid transparent;
+    outline-offset: -2px;
+    padding: 0.6875rem 1.5rem; */
+}
+button, [type=button], [type=reset], [type=submit] {
+    -webkit-appearance: button;
+}
+button, select {
+    text-transform: none;
+}
+button, input {
+    overflow: visible;
+}
+button, input, optgroup, select, textarea {
+    font-family: inherit;
+    /* font-size: 100%;
+    line-height: 1.15; */
+    margin: 0;
+}
+
+button {
+    /* appearance: auto; */
+
+    /* font-style: ;
+    font-variant-ligatures: ;
+    font-variant-caps: ;
+    font-variant-numeric: ;
+    font-variant-east-asian: ;
+    font-variant-alternates: ;
+    font-variant-position: ;
+    font-weight: ;
+    font-stretch: ;
+    font-size: ;
+    font-family: ;
+    font-optical-sizing: ;
+    font-size-adjust: ;
+    font-kerning: ;
+    font-feature-settings: ;
+    font-variation-settings: ; */
+
+    text-rendering: auto;
+    /* color: buttontext; */
+    letter-spacing: normal;
+    word-spacing: normal;
+    /* line-height: normal; */
+    /* text-transform: none; */
+    text-indent: 0px;
+    text-shadow: none;
+    /* display: inline-block;
+    text-align: center;
+    align-items: flex-start; */
+    cursor: default;
+    /* box-sizing: border-box;
+    background-color: buttonface;
+    margin: 0em; */
+    padding-block: 1px;
+    padding-inline: 6px;
+    /* border-width: 2px;
+    border-style: outset;
+    border-color: buttonborder;
+    border-image: initial; */
+}
