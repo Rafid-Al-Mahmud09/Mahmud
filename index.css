@@ -16,11 +16,20 @@ section{
 section h2{
     font-size: 50px;
 }
+@media screen and (max-width: 70em) {
+    section{flex-wrap: wrap;}
+    section *{font-size: large !important;}
+    section>video{height: 800px;width:auto;max-width: 34.4vw;padding: 20px 0;}
+    section>div{border-radius: 5px;}
+}
+section>video{height: 800px;width:auto;max-width: 550px;padding: 20px 0;border-radius: 50px;}
+section>div{border-radius: 5px;}
+/* #projects > div > li{background-color: #eaeaea !important;} */
 #about>div>h2{
     text-align: center;
     margin-bottom: 100px;
 }
-#about>div>p{
+#about>div>div{
     font-size: xx-large;
     text-align: center;
 }
