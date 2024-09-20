@@ -17,13 +17,15 @@ section>div.sec_aside{justify-content: center;align-items: center;}
 section h2{
     font-size: 50px;
 }
+section>video{height: 800px;width:auto;max-width: 550px;padding: 20px 0;border-radius: 50px;}
 @media screen and (max-width: 70em) {
     section{flex-wrap: wrap;}
     section *{font-size: large !important;}
     section>video{height: 800px;width:auto;max-width: 34.4vw;padding: 20px 0;}
     section>div.sec_aside{border-radius: 5px;}
+    /* section>video{height: 330px;width:auto;} */
+    section>video{height: 53vh;width:auto;}
 }
-section>video{height: 800px;width:auto;max-width: 550px;padding: 20px 0;border-radius: 50px;}
 section>div.sec_aside{border-radius: 5px;}
 /* #projects > div > li{background-color: #eaeaea !important;} */
 section>div.sec_aside>h2{
